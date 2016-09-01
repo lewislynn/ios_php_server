@@ -49,5 +49,5 @@ if ($type == 1){
 		echo "oilModel insert failure, error num:".mysqli_errno($conn).",error:".mysqli_error($conn);
 	}
 }else {
-	echo "incorrect type for input, please check it.";
+	echo "incorrect type for input, please check it. It's a funning day!";
 }
